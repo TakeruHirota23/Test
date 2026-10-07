@@ -139,7 +139,12 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Novice.cpp" />
     <ClCompile Include="PM1_Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KamataEngine.h" />
+    <ClInclude Include="Novice.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
